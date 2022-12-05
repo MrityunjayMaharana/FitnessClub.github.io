@@ -347,3 +347,24 @@
     font-size: 1.5rem;
 
 }
+.gallery{
+    font-family:'Jost', sans-serif ;
+    text-align: center;
+}
+.gallery h1{
+    font-size: 3rem;
+    color: red;
+}
+.gallery p{
+    font-size: 1.8rem;
+}
+.gallery_ending{
+    margin: auto;
+    width: 70%;
+    height: 500px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    text-align: center;
+    background: url(https://bloganchoi.com/wp-content/uploads/2020/04/cach-tao-dong-luc-tap-gym.jpg);
+}
+
