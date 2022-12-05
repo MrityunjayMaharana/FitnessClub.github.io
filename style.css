@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+}
+.nav_bar{
+    background-color:rgb(0, 0, 0);
+    box-shadow: 0 2px 10px 0 rgba(231, 255, 46, 0.463);
+    
+}
+.nav_bar button{
+    background-color: red;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom:8px ;
+    padding-right: 10px;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+
+
+}
+.nav_bar button:hover{
+    background-color: aliceblue;
+    color:red;
+}
+.nav_bar input{
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 100px;
+    padding-left: 40px;
+    border-radius: 30px;
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius:0 ;
+}
+.nav_bar img{
+    padding-top:10px ;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-bottom:10px ;
+    
+}
+.nav_bar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Jost', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding-left:6px ;
+    padding-right:6px ;
+    border-radius: 20px;
+    
+}
+.nav_bar a:hover{
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.icon{
+    float: right;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+.centered h1{
+    font-size: 7rem;
+    font-family: 'Paytone One', sans-serif;
+    text-shadow: 3PX 3PX 6PX black;
+    float: left;
+}
+.centered h4{
+    font-family:'Jost', sans-serif;
+    float: left;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px black;
+}
+.register_button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.register_button button{
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 100px;
+    color:aliceblue;
+    background-color: rgb(255, 0, 0);
+    border-radius: 26px;
+    padding-top:5px ;
+    padding-bottom:5px ;
+    padding-left:10px ;
+    padding-right:10px ;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.register_button button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+.register_button a{
+    text-decoration: none;
+    color: white;
+}
+.register_button a:hover{
+    color: red;
+}
+.background{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    padding-left:400px ;
+    padding-right:400px ;
+    padding-top:5px ;
+    padding-bottom:400px ;
+    opacity: 0.7;
+    border-radius: 80px;
+
+}
+.fitness_club{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.fitness_club h1{
+    font-family:'Jost', sans-serif ;
+    font-size: 2.5rem;
+    color: darkorange;
+
+}
+.fitness_club p{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px black;
+
+}
+.tag_line{
+    position: absolute;
+    bottom: 160px;
+    left: 16px;
+}
+.tag_line h2{
+    font-size: 3rem;
+    font-family: 'Jost', sans-serif;
+}
+.events{
+    
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+}
+.event_details{
+    width: 30%;
+    height: 500px;
+    border-radius: 35px;
+    background: linear-gradient(black,rgb(255, 55, 55));
+    margin: 25px;
+    
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+}
+.event_details p{
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.event_details a{
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.event_details button{
+    border-radius: 20px;
+    border-color: aliceblue;
+    background: none;
+    border: 2px solid white;
+
+    
+}
+.event_details button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+.event_details a:hover{
+    color: rgb(255, 0, 0);
+}
+.about_navbar{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.about_navbar h1{
+    font-size: 5rem;
+    font-family:'Poppins', sans-serif ;
+    font-weight:900;
+    color: rgb(0, 0, 0);
+}
+.about_navbar p{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+.information{
+    text-align: center;
+}
+.information h1{
+    font-size: 5rem;
+    font-family:'Poppins', sans-serif ;
+    font-weight:900;
+    color: rgb(0, 0, 0);
+}
+.information p{
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+}
+.member{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.get_in_touch{
+    background-color: rgb(230, 230, 230);
+}
+.get_in_touch button{
+    font-size: 1.6rem;
+    background-color: rgb(255, 105, 19);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.get_in_touch button:hover{
+    background-color: rgb(41, 40, 40);
+    color: aliceblue;
+}
+.community{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    margin: auto;
+    width: 97%;
+    height: 900px;
+    color: aliceblue;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px #000000;
+    background: url(https://formagym.com/wp-content/uploads/2019/03/shutterstock_1065905168-1.jpg);
+}
+.community button{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+.community button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.community p{
+    font-size: 2rem;
+}
+.community h2{
+    font-size: 4rem;
+}
+.services{
+    
+    background-color: rgb(255, 255, 255);
+}
+.services h1{
+    font-size: 5rem;
+    color: RED;
+}
+.service_info{
+    display: flex;
+    text-align: center;
+    font-family:'Jost', sans-serif ;
+    margin: 10px;
+
+}
+.service_info button{
+    background-color: red;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 20px;
+    
+}
+.service_info button:hover{
+    background-color: aliceblue;
+    color: #000000;
+    
+    
+}
+.service_info div{
+    width: 50%;
+    height: 500px;
+    margin: 10px;
+}
+.service_info1{
+    border-radius: 30px;
+    color: aliceblue;
+    background:url(https://assets.gqindia.com/photos/61a320bc0cb715e3116b8655/1:1/w_1080,h_1080,c_limit/weekend%20workout.jpg);
+
+}
+.service_info2{
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    background: url(https://assets.entrepreneur.com/content/3x2/2000/20151012194720-woman-exercising-workout.jpeg?crop=1:1);
+
+}
+.service_info3{
+    border-radius: 30px;
+    color: aliceblue;
+    background: url(https://post.healthline.com/wp-content/uploads/2019/10/reading-book-732x549-thumbnail-732x549.jpg);
+
+}
+.service_info4{
+    border-radius: 30px;
+    background: url(https://foodess.com/wp-content/uploads/2022/06/Easy-Chili-Garlic-Tofu-Recipe-1-1-819x1024.jpg);
+
+}
+.info p{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+
+}
