@@ -347,6 +347,7 @@
     font-size: 1.5rem;
 
 }
+/*Gallery page CSS*/
 .gallery{
     font-family:'Jost', sans-serif ;
     text-align: center;
@@ -367,6 +368,7 @@
     text-align: center;
     background: url(https://bloganchoi.com/wp-content/uploads/2020/04/cach-tao-dong-luc-tap-gym.jpg);
 }
+/*nutrition page CSS*/
 .nutrition_header{
     background: url(https://www.glanbia.com/sites/glanbia/files/styles/banner_variation_i/public/glanbia/our-story/story-banner/ON%20Brand%20Story%20.png?h=08f45488&itok=l0Ir1JiA);
     text-align: center;
@@ -430,5 +432,88 @@
     justify-content: center;
     display: flex;
     margin:20px;
+}
+/*training page CSS*/
+.workout_header{
+   
+    margin-top: 10px;
+    height: 500px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-family:'Jost', sans-serif ;
+    color: white;
+    background: url(https://assets.gqindia.com/photos/61a320bc0cb715e3116b8655/master/pass/weekend%20workout.jpg);
+}
+.workout_header h1{
+    padding-top: 60px;
+    font-size: 7rem;
+}
+.workout_header button{
+    background-color: red;
+    padding-left:10px ;
+    padding-right:10px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    border-radius: 20px;
+    color: white;
+}
+.workout_header button:hover{
+    background-color: white;
+    color: red;
+}
+.followers{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(244, 241, 241);
+    font-family: 'Jost', sans-serif;
+    font-size: 1.6rem;
+    color: #aaaaaa;
+}
+.workout_category{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+.workout_category h1{
+    font-size: 4rem;
+    color: red;
+}
+.workout_category p{
+    font-size: 1.5rem;
+}
+.workout_image img{
+    padding-right:20px ;
+    padding-top: 20px;
+}
+.best_workout{
+    display: flex;
+}
+.bw_des{
+    font-family:'Jost', sans-serif ;
+    background-color: #e5e3e3;
+    border-radius: 20px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bw_des button{
+    background-color: red;
+    color: white;
+    font-family: 'Jost', sans-serif ;
+    padding: 10px 10px 10px ;
+    border-radius: 20px;
+}
+.bw_des button:hover{
+    background-color: white;
+    color: red;
+}
+.bw_img{
+    margin: auto;
+
+}
+.bw_img img{
+    width: 100;
 }
 
