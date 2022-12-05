@@ -367,4 +367,68 @@
     text-align: center;
     background: url(https://bloganchoi.com/wp-content/uploads/2020/04/cach-tao-dong-luc-tap-gym.jpg);
 }
+.nutrition_header{
+    background: url(https://www.glanbia.com/sites/glanbia/files/styles/banner_variation_i/public/glanbia/our-story/story-banner/ON%20Brand%20Story%20.png?h=08f45488&itok=l0Ir1JiA);
+    text-align: center;
+    height: 500px;
+    font-family:'Jost', sans-serif ;
+}
+.nutrition_header h1{
+    color: white;
+    font-size: 3rem;
+    text-shadow:2px 2px 3px black ;
+}
+.nutrition_header button{
+    background-color: red;
+    font-family: 'Jost', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 20px;
+}
+.nutrition_header button:hover{
+    background-color: white;
+    color: red;
+}
+.nutrition_plan{
+    display: flex;
+    margin: 10px;
+}
+.supplements{
+    text-shadow:2px 2px 3px black  ;
+    color: white;
+    width: 50%;
+    height: 500px;
+    float: left;
+    font-size: 2.5rem;
+    font-family:'Jost', sans-serif ;
+    background: url(https://img.freepik.com/free-photo/portrait-young-spotive-girl-doing-exercises-with-rope-keeping-body-fit-isolated-green-background-neon_155003-45635.jpg?size=626&ext=jpg&ga=GA1.2.1116173185.1662564332&semt=sph);
+}
+.supplement_description{
+    font-family:'Jost', sans-serif ;
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    margin-top: 30px;
+}
+.our_product{
+    display: flex;
+    margin: 50px;
+}
+.our_product h1{
+    font-family: 'Jost', sans-serif;
+    font-size: 4rem;
+}
+.our_product p{
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+
+}
+.supplement_image{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin:20px;
+}
 
